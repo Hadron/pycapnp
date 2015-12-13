@@ -1,0 +1,24 @@
+pycapnp (0.5.9-1) unstable; urgency=medium
+
+  * Update to upstream snapshot.
+
+ -- Klee Dienes <klee@debian.org>  Fri, 29 Jul 2016 17:05:36 -0400
+
+pycapnp (0.5.7~git.20151204-1) unstable; urgency=medium
+
+  * Update to upstream snapshot.
+  * Fixes fatal exception when receiving unknown packet.
+
+ -- Klee Dienes <klee@debian.org>  Sat, 12 Dec 2015 21:34:44 -0500
+
+pycapnp (0.5.7~git.20150713-1) unstable; urgency=medium
+
+  * Update to upstream 0.5.7. (Closes: #749407)
+
+ -- Klee Dienes <klee@debian.org>  Sun, 20 Sep 2015 07:30:11 -0400
+
+pycapnp (0.4.5-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #749407)
+
+ -- Klee Dienes <klee@debian.org>  Mon, 26 May 2014 13:48:05 -0400

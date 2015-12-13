@@ -1,0 +1,27 @@
+Source: pycapnp
+Maintainer: Klee Dienes <klee@mit.edu>
+Section: python
+Priority: optional
+Build-Depends: debhelper (>= 9), dh-python, python-all-dev (>= 2.6.6-3), python-setuptools, python3-all-dev, python3-setuptools, libcapnp-dev (>= 0.5.2), cython, cython3
+Standards-Version: 3.9.5
+Homepage: http://jparyani.github.io/pycapnp/
+X-Python-Version: >= 2.6
+X-Python3-Version: >= 3.2
+
+Package: python-pycapnp
+Architecture: any
+Depends: ${misc:Depends}, ${python:Depends}, ${shlibs:Depends}
+Description: python bindings for the C++ Cap'n Proto library
+ Cap’n Proto is a fast data interchange format and capability-based
+ RPC system, similar to JSON or Protocol Buffers.  Cap'n Proto uses
+ in-memory structures that map to an efficient binary encoding,
+ eliminating marshalling and unmarshalling time.
+
+Package: python3-pycapnp
+Architecture: any
+Depends: ${misc:Depends}, ${python3:Depends}, ${shlibs:Depends}
+Description: python bindings for the C++ Cap'n Proto library
+ Cap’n Proto is a fast data interchange format and capability-based
+ RPC system, similar to JSON or Protocol Buffers.  Cap'n Proto uses
+ in-memory structures that map to an efficient binary encoding,
+ eliminating marshalling and unmarshalling time.
